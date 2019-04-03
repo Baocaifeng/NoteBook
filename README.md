@@ -1,30 +1,60 @@
-# Conda environment with environment.yml
+# Template
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://beta.mybinder.org/v2/gh/binder-examples/conda_environment/v1.0?filepath=index.ipynb)
 
-A Binder-compatible repo with an `environment.yml` file.
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
 
-Access this Binder at the following URL:
 
-http://beta.mybinder.org/v2/gh/binder-examples/conda_environment/v1.0?filepath=index.ipynb
 
-## Notes
-The `environment.yml` file should list all Python libraries on which your notebooks
-depend, specified as though they were created using the following `conda` commands:
+  <font color=red>RED</font>
+  [link](www.google.com)
+  
+  
+                  
+>>hhh
 
+> The overriding design goal for Markdown's
+>>>hhh
+>>>hhj
+
+- Table
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+jjj
+
+<table style="width:100%" >
+  <tr>
+    <td bgcolor=red>hhhh I am  red</td>
+  
+  </tr>
+</table>
+
+This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
+
+
+
+
+```sh
+$ cd dillinger
+$ npm install -d
+$ node app
 ```
-source activate example-environment
-conda env export --no-builds -f environment.yml
-```
 
-Note that the only libraries available to you will be the ones specified in
-the `environment.yml`, so be sure to include everything that you need! 
-
-Also note that conda will possibly try to include OS-specific packages in `environment.yml`, so you
-may have to manually prune `environment.yml` to get rid of these packages. Confirmed Mac-OSX-specific
-packages that should be removed are:
-
-* libcxxabi=4.0.1
-* appnope=0.1.0
-* libgfortran=3.0.1
-* libcxx=4.0.1
+***for distribution:***
