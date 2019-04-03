@@ -1,13 +1,12 @@
-name: example-environment
+name: notebook
 channels:
   - conda-forge
 dependencies:
+  - python=3.7
   - numpy
-  - psutil
-  - toolz
+  - sympy
   - matplotlib
-  - dill
   - pandas
-  - partd
-  - bokeh
-  - dask
+  - networkx
+  - scikit-image
+  - scikit-learn
